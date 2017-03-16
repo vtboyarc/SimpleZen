@@ -9,11 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //right click on label in IB and drag Reference Outlet
     @IBOutlet weak var quoteLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        quoteLabel.text = "A new quote"
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //control + click and drag from button in IB and drop here, choose action
+    @IBAction func newQuote() {
+        quoteLabel.text = "Another quote to meditate on"
+    }
 
 }
 
