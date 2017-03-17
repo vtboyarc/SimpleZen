@@ -54,6 +54,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="newQuoteButton" destination="EK6-mc-Rtj" id="4xG-6F-fP7"/>
                         <outlet property="quoteLabel" destination="aaZ-DP-gkZ" id="W6L-eg-VxV"/>
                     </connections>
                 </viewController>
