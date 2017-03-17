@@ -147,7 +147,27 @@ struct QuoteProvider {
         "If you cannot find the truth right where you are, where else do you expect to find it? - Dogen",
         "Our greatest glory is not in never falling, but in rising every time we fall. - Confucius",
         "The practice of forgiveness is our most important contribution to the healing of the world. - Marianne Williamson",
-        "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it. - Michelangelo"
+        "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it. - Michelangelo",
+        //new quotes for version 1.3 start below
+        "All that is necessary to awaken to yourself as the radiant emptiness of spirit is to stop seeking something more or better or different, and to turn your attention inward to the awake silence that you are. ~Adyashanti",
+        "Meditation is meeting eternity in the present moment. It is resolving every problem as it comes. It is resolving every tension as it creeps in. It is facing the challenges of life in a non-fearful way. ~Vimala Thakar",
+        "At the end of the day, I can end up just totally wacky, because I’ve made mountains out of molehills. With meditation, I can keep them as molehills. ~Ringo Starr",
+        "If we can reach the understanding of what we actually are, there is no better remedy for eliminating all suffering. This is the heart of all spiritual practices. ~Kalu Rinpoche",
+        "We try many ways to be awake, but our society still keeps us forgetful. Meditation is to help us remember. ~Thich Nhat Hanh",
+        "The thing about meditation is…you become more and more you. ~David Lynch",
+        "Plant the seed of meditation and reap the fruit of peace of mind. – Remez Sasson",
+        "A calm mind is not disturbed by the waves of thoughts. – Remez Sasson",
+        "Meditation and concentration are the way to a life of serenity. – Remez Sasson",
+        "A free and silent mind is always in meditation. – Remez Sasson",
+        "Calm the winds of your thoughts, and there will be no waves on the ocean of your mind. – Remez Sasson",
+        "Constant inner peace and serenity can be yours.  - Remez Sasson",
+        "If a person’s basic state of mind is serene and calm, then it is possible for this inner peace to overwhelm a painful physical experience. – The Dalai Lama",
+        "Empty your mind, be formless, shapeless – like water. Now you put water into a cup, it becomes the cup, you put water into a bottle, it becomes the bottle, you put it in a teapot, it becomes the teapot. Now water can flow or it can crash. Be water, my friend. – Bruce Lee",
+        "If you want to find God, hang out in the space between your thoughts. – Alan Cohen",
+        "Meditation is listening to the Divine within. – Edgar Cayce",
+        "The body needs material food every day. The soul needs spiritual food.- Remez Sasson",
+        "When you have a problem, meditate on it and the answer will come, during the meditation or afterwards. – Remez Sasson",
+        "The more man meditates upon good thoughts, the better will be his world and the world at large. – Confucius"
         
     ]
     
