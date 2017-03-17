@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //quotes is the name of the array in the QuoteProvider struct, getting the first item
-        quoteLabel.text = quoteProvider.quotes[0]
+        //quotes is the name of the array in the QuoteProvider struct.
+        quoteLabel.text = quoteProvider.randomQuote()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     //control + click and drag from button in IB and drop here, choose action
     @IBAction func newQuote() {
-        quoteLabel.text = quoteProvider.quotes[1]
+        quoteLabel.text = quoteProvider.randomQuote()
     }
 
 }

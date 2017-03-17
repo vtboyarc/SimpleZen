@@ -6,6 +6,8 @@
 //  Copyright © 2017 Adam Carter. All rights reserved.
 //
 
+import GameKit
+
 struct QuoteProvider {
     let quotes = [
         "There is nowhere to arrive except the present moment. - Thic Nhat Hanh",
@@ -148,5 +150,22 @@ struct QuoteProvider {
         "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it. - Michelangelo"
         
     ]
+    
+    func randomQuote() -> String {
+        //GKRandomSource comes from the GameKit import
+        //returns a random number. upperBound sets the limit.
+        //insures it never returns a value higher than the index value of the array
+        let randomNum = GKRandomSource.sharedRandom().nextInt(upperBound: quotes.count)
+        
+        //un-comment the below line to see the total count of quotes in the console
+        //print(quotes.count)
+        return quotes[randomNum]
+    }
 
 }
+
+
+
+
+
+
