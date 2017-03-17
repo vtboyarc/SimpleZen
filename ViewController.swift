@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     //right click on label in IB and drag Reference Outlet
     @IBOutlet weak var quoteLabel: UILabel!
+    
     //creating a constant to access the quotes in the QuoteProvider struct
     let quoteProvider = QuoteProvider()
 
