@@ -11,11 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     //right click on label in IB and drag Reference Outlet
     @IBOutlet weak var quoteLabel: UILabel!
+    let quotes = ["quote1", "quote 2", "quote 3"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        quoteLabel.text = "A new quote"
+        quoteLabel.text = quotes[0]
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +26,8 @@ class ViewController: UIViewController {
 
     //control + click and drag from button in IB and drop here, choose action
     @IBAction func newQuote() {
-        quoteLabel.text = "Another quote to meditate on"
+        //stubbing some mock data for now
+        quoteLabel.text = quotes[1]
     }
 
 }

@@ -31,7 +31,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EK6-mc-Rtj">
                                 <rect key="frame" x="97" y="318" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show another fun fact"/>
+                                <state key="normal" title="Show another quote"/>
                                 <connections>
                                     <action selector="newQuote" destination="BYZ-38-t0r" eventType="touchUpInside" id="rpe-l3-QU8"/>
                                 </connections>
