@@ -28,7 +28,6 @@ class ViewController: UIViewController {
 
     //control + click and drag from button in IB and drop here, choose action
     @IBAction func newQuote() {
-        //stubbing some mock data for now
         quoteLabel.text = quoteProvider.quotes[1]
     }
 
